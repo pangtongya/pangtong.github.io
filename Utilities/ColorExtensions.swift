@@ -4,9 +4,9 @@
 import SwiftUI
 
 extension Color {
-    // WaterMinder 品牌色
-    static let waterminderPrimary = Color.blue
-    static let waterminderSecondary = Color.cyan
+    // WaterMinder 品牌色 - 使用舒适的蓝绿色
+    static let waterminderPrimary = Color.teal
+    static let waterminderSecondary = Color.mint
     static let waterminderBackground = Color(.systemBackground)
     static let waterminderCardBackground = Color(.secondarySystemBackground)
     
