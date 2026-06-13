@@ -13,19 +13,14 @@ targets:
     platform: iOS
     deploymentTarget: "16.0"
     sources:
-      - path: .
-        excludes:
-          - "WaterMinder.xcodeproj"
-          - "project.yml"
-          - "README.md"
-          - "Tests"
-          - ".git"
-          - "WORK_SUMMARY.md"
-          - "CHANGELOG.md"
-          - "DELIVERY.md"
-          - "*.md"
-          - "build"
-          - "DerivedData"
+      - path: WaterMinderApp.swift
+      - path: Info.plist
+      - path: Models
+      - path: Stores
+      - path: Managers
+      - path: Views
+      - path: Utilities
+      - path: Assets.xcassets
     settings:
       INFOPLIST_FILE: Info.plist
       PRODUCT_BUNDLE_IDENTIFIER: com.pangtong.waterminder

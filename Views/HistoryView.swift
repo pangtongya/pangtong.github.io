@@ -51,6 +51,7 @@ struct HistoryView: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationTitle("喝水记录")
             .background(Color(.systemBackground))
+            .ignoresSafeArea()
             .sheet(isPresented: $showingEditRecord) {
                 if let record = editingRecord {
                     EditRecordView(record: record)
